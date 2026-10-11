@@ -1,0 +1,651 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2d02520c-ac88-4654-9cde-61cacd5a66f1")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 231.14 102.616)
+		(end 260.858 152.4)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0368d6b4-67ac-4498-89ac-89ba5c79f8bd")
+	)
+	(rectangle
+		(start 231.1399 83.312)
+		(end 249.936 98.552)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0a95ce72-5b94-4588-9c43-a3600f108b2e")
+	)
+	(rectangle
+		(start 24.638 40.894)
+		(end 67.818 53.594)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3a35028b-9362-4946-bd90-be0ee5428cbe")
+	)
+	(rectangle
+		(start 94.742 40.64)
+		(end 139.192 53.34)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "63ba038a-4781-4548-947d-f92cb9197edc")
+	)
+	(rectangle
+		(start 93.98 82.804)
+		(end 129.54 95.504)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6f10b92d-731b-4dbe-ab83-d90d18878193")
+	)
+	(rectangle
+		(start 31.75 66.294)
+		(end 66.04 78.994)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "744dc856-4194-4f8e-86f1-c27de96b2f1e")
+	)
+	(rectangle
+		(start 230.886 64.262)
+		(end 262.636 79.502)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "878fdbb4-66e9-447f-b58c-9de0c67316e4")
+	)
+	(rectangle
+		(start 153.67 73.152)
+		(end 193.04 106.172)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bba3ac17-e52c-449d-9641-faa7cdac8d92")
+	)
+	(rectangle
+		(start 163.068 40.894)
+		(end 206.248 53.594)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e0d8db3a-62d3-4eef-a225-9135569df371")
+	)
+	(text "IMU"
+		(exclude_from_sim no)
+		(at 240.284 91.186 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "0947c045-41f9-4731-a319-9b47e793c652")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 140.462 84.582 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "2186c5b5-cce7-4f1a-8239-11bf20c7d589")
+	)
+	(text "1.8V"
+		(exclude_from_sim no)
+		(at 175.006 62.738 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "2bfcb207-5544-4a9c-8cd1-5ee135e34330")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 88.392 66.04 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "378f0193-efb9-4d73-8f05-f90195b095d9")
+	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 191.008 59.944 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "3d2c2855-736c-491f-97eb-29b1232cea1f")
+	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 90.17 77.216 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "4d48954e-ff44-46ea-9fc7-8262b72eec13")
+	)
+	(text "3V - 5.5V"
+		(exclude_from_sim no)
+		(at 150.876 45.212 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "59d6f9fe-0b10-444f-b1eb-662c1784e52e")
+	)
+	(text "FTDI USB Bridge"
+		(exclude_from_sim no)
+		(at 111.76 88.9 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "5a6032ad-4a26-454e-8c58-1992ef8a3a09")
+	)
+	(text "Power Regulator"
+		(exclude_from_sim no)
+		(at 184.15 46.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "75b20687-bda3-484b-93f5-159172542e66")
+	)
+	(text "PMOD 1\nPMOD 2\nButton 1\nButton 2\nButton 3\nButton PROG\nLED 1\nLED 2\nLED 3\nRGD LED 1\nRGD LED 2"
+		(exclude_from_sim no)
+		(at 246.38 128.27 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "88939d3e-a33a-43e5-a3e1-23da928fa53a")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 140.716 91.186 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "9705f76a-dc4c-45ed-a4d3-16461883a594")
+	)
+	(text "SPI"
+		(exclude_from_sim no)
+		(at 217.424 92.202 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "a680eb11-227e-498c-857a-a3bfe47f7c59")
+	)
+	(text "QSPI"
+		(exclude_from_sim no)
+		(at 218.948 74.422 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "bfab6a51-796d-4509-9c43-17f059c41c04")
+	)
+	(text "Flash Memory"
+		(exclude_from_sim no)
+		(at 246.888 72.136 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "c0c97302-e07a-4912-aded-108e0b5db3c9")
+	)
+	(text "Min 3V - Max 5.5V"
+		(exclude_from_sim no)
+		(at 44.45 36.83 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "c449bd78-1e26-4494-9b91-6d8fee14a8ed")
+	)
+	(text "FPGA"
+		(exclude_from_sim no)
+		(at 173.482 89.154 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "c75d411e-12e8-4121-8ae5-58fc7d6ba67c")
+	)
+	(text "GPIOs"
+		(exclude_from_sim no)
+		(at 179.324 113.792 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "d3ae1e51-d444-4e45-aeb6-e71b451cc95b")
+	)
+	(text "1V"
+		(exclude_from_sim no)
+		(at 164.592 62.992 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "d828ea93-bf8b-4718-9a51-d57b1d5cbb2c")
+	)
+	(text "3V - 5.5V"
+		(exclude_from_sim no)
+		(at 82.804 43.18 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "dafaf2a6-bf1c-49ea-ae5f-375611f247c5")
+	)
+	(text "Power OR Connection"
+		(exclude_from_sim no)
+		(at 116.84 46.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "e25656dc-e178-41ff-be16-52660d318bc7")
+	)
+	(text "USB Connector"
+		(exclude_from_sim no)
+		(at 49.53 72.39 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "e5640e76-b812-4577-8f6e-ee029690ab0a")
+	)
+	(text "External Power Input"
+		(exclude_from_sim no)
+		(at 45.72 46.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.381)
+				(bold yes)
+			)
+		)
+		(uuid "f1e9ba96-7f29-460a-a55a-24f739f6fa72")
+	)
+	(polyline
+		(pts
+			(xy 195.58 55.88) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "0578fafb-e240-4a6b-a410-4be87d2d4057")
+	)
+	(polyline
+		(pts
+			(xy 85.09 68.58) (xy 85.09 49.53)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "10ad3d55-2fd6-4021-b4d7-3d13e1fb3906")
+	)
+	(polyline
+		(pts
+			(xy 205.74 86.36) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1c12c48a-53d1-4b6a-9c32-ec4fb4c60d7e")
+	)
+	(polyline
+		(pts
+			(xy 173.99 129.54) (xy 228.6 129.54)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "2b9ab547-3893-4654-bd2e-fe77be843c81")
+	)
+	(polyline
+		(pts
+			(xy 85.09 49.53) (xy 92.71 49.53)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "304d980b-dcd9-4469-9648-c93c432f1cde")
+	)
+	(polyline
+		(pts
+			(xy 196.85 76.2) (xy 229.87 76.2)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "3fa77af0-59d7-40c0-b8e7-59fff5cfbf76")
+	)
+	(polyline
+		(pts
+			(xy 68.58 68.58) (xy 85.09 68.58)
+		)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 255 0 0 1)
+		)
+		(uuid "4d57409b-b2ae-4aba-a108-92fe2d8f14df")
+	)
+	(polyline
+		(pts
+			(xy 173.99 107.95) (xy 173.99 129.54)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "5050a114-19bc-43f7-8b10-2ddd2c467994")
+	)
+	(polyline
+		(pts
+			(xy 68.58 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "6a9b9be7-89ab-480e-a92a-401137742d5a")
+	)
+	(polyline
+		(pts
+			(xy 205.74 68.58) (xy 228.6 68.58)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6cca29ef-69f6-44ac-9c17-0eef5753b04a")
+	)
+	(polyline
+		(pts
+			(xy 205.74 63.5) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6d8ec74a-7f93-4f78-b70e-542e5d9f0268")
+	)
+	(polyline
+		(pts
+			(xy 71.12 45.72) (xy 92.71 45.72)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "875219e8-3def-4f40-9718-ca4367bedd42")
+	)
+	(polyline
+		(pts
+			(xy 140.97 46.99) (xy 160.02 46.99)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "96424cfa-93f5-4357-b75c-16fd028e2a86")
+	)
+	(polyline
+		(pts
+			(xy 205.74 106.68) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9cadd8f6-f0fe-4002-9ba4-6d5c4e3ee4f5")
+	)
+	(polyline
+		(pts
+			(xy 132.08 86.36) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "a33b30df-c06e-479f-9a44-c8e9bc12a0d0")
+	)
+	(polyline
+		(pts
+			(xy 195.58 63.5) (xy 186.69 63.5)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ae708dde-0ff9-4765-ba09-6af11d033524")
+	)
+	(polyline
+		(pts
+			(xy 167.64 55.88) (xy 167.64 71.12)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "aec831f2-e276-4473-8c79-692f2a45c7c9")
+	)
+	(polyline
+		(pts
+			(xy 179.07 55.88) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b4cee34b-9fef-4315-a96b-463f515f47f2")
+	)
+	(polyline
+		(pts
+			(xy 132.08 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "b9bd175b-3e86-4e9d-8026-688c71bac2b0")
+	)
+	(polyline
+		(pts
+			(xy 85.09 88.9) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "bbe025ea-0846-46ad-87f0-8b6c878d76a4")
+	)
+	(polyline
+		(pts
+			(xy 195.58 63.5) (xy 205.74 63.5)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "ce716069-57b0-414d-932e-e0981d41c284")
+	)
+	(polyline
+		(pts
+			(xy 195.58 93.98) (xy 228.6 93.98)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "d75174d7-f236-4733-a563-848ce7cfe7c3")
+	)
+	(polyline
+		(pts
+			(xy 85.09 74.93) (xy 85.09 88.9)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "da7930aa-43ee-44c9-919f-1a8c39301b87")
+	)
+	(polyline
+		(pts
+			(xy 186.69 63.5) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "e435ca32-da70-47da-b158-8d6f46de0148")
+	)
+	(polyline
+		(pts
+			(xy 228.6 106.68) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f7b138ed-d5a1-4466-b3d7-ef858f855955")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

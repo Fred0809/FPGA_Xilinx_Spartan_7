@@ -1,0 +1,167 @@
+(footprint "Toy_Race_0805R_H"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "R1"
+		(at 0.6 -1.82852 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d41558c4-fe1b-4d0e-be16-636e3f22666e")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.756 0.756)
+				(thickness 0.05)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "R1" 180
+			(polygon
+				(pts
+					(xy 0.132656 -1.531047) (xy 0.153566 -1.500504) (xy 0.177345 -1.46687) (xy 0.20048 -1.436219) (xy 0.213717 -1.420812)
+					(xy 0.243427 -1.396964) (xy 0.259879 -1.389422) (xy 0.296354 -1.382554) (xy 0.333962 -1.380937)
+					(xy 0.337246 -1.380928) (xy 0.368451 -1.380928) (xy 0.368451 -1.7) (xy 0.522078 -1.7) (xy 0.522078 -0.931866)
+					(xy 0.198576 -0.931866) (xy 0.155156 -0.932593) (xy 0.116436 -0.934774) (xy 0.077203 -0.939156)
+					(xy 0.040199 -0.946588) (xy 0.021314 -0.952546) (xy -0.01415 -0.970582) (xy -0.044379 -0.996255)
+					(xy -0.067316 -1.02622) (xy -0.084843 -1.060838) (xy -0.095879 -1.098449) (xy -0.100423 -1.139054)
+					(xy -0.100552 -1.147534) (xy -0.100032 -1.154366) (xy 0.057874 -1.154366) (xy 0.064359 -1.116605)
+					(xy 0.07837 -1.093617) (xy 0.108698 -1.072197) (xy 0.136349 -1.064442) (xy 0.173694 -1.062504)
+					(xy 0.211133 -1.061981) (xy 0.24843 -1.061857) (xy 0.368451 -1.061857) (xy 0.368451 -1.250937)
+					(xy 0.254709 -1.250937) (xy 0.216153 -1.250618) (xy 0.178556 -1.249443) (xy 0.138641 -1.246262)
+					(xy 0.116592 -1.241889) (xy 0.084435 -1.222998) (xy 0.073569 -1.210314) (xy 0.059407 -1.17427)
+					(xy 0.057874 -1.154366) (xy -0.100032 -1.154366) (xy -0.097402 -1.188941) (xy -0.08795 -1.226563)
+					(xy -0.072198 -1.2604) (xy -0.050144 -1.290451) (xy -0.021904 -1.316013) (xy 0.012589 -1.336382)
+					(xy 0.047903 -1.349945) (xy 0.088006 -1.359532) (xy 0.100343 -1.36154) (xy 0.068141 -1.382401)
+					(xy 0.037739 -1.406701) (xy 0.018175 -1.425982) (xy -0.006828 -1.456433) (xy -0.028357 -1.486693)
+					(xy -0.049505 -1.518774) (xy -0.069347 -1.550435) (xy -0.162409 -1.7) (xy 0.021499 -1.7)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.582298 -1.7) (xy -0.436426 -1.7) (xy -0.436426 -1.14421) (xy -0.405438 -1.172795) (xy -0.372437 -1.198445)
+					(xy -0.337424 -1.221161) (xy -0.300399 -1.240943) (xy -0.261361 -1.25779) (xy -0.247901 -1.262754)
+					(xy -0.247901 -1.120945) (xy -0.284535 -1.10631) (xy -0.319171 -1.08765) (xy -0.351282 -1.066698)
+					(xy -0.371984 -1.051517) (xy -0.402867 -1.024789) (xy -0.428487 -0.995938) (xy -0.448844 -0.964964)
+					(xy -0.463939 -0.931866) (xy -0.582298 -0.931866)
+				)
+			)
+		)
+	)
+	(property "Value" "10K"
+		(at -4.49199 -0.7493 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aca625c3-7bf5-4166-86c2-2a3a4b4f711a")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "979efcfd-b2c0-468e-8f37-5b94bf64ad7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4b734de-d723-44b3-a1e3-cbb74c3e3994")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "850788d5-d6c9-486a-b3b5-ee057e6d76d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.725 -0.95)
+		(end -1.725 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "fe20abad-bccf-4512-89e0-0da75b617ab9")
+	)
+	(fp_line
+		(start 1.725 -0.95)
+		(end -1.725 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "89184276-2acc-4f30-afff-16b40c347aa8")
+	)
+	(fp_line
+		(start 1.725 -0.95)
+		(end 1.725 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "b6cbdc48-fca8-4366-8137-4d4104e97ab8")
+	)
+	(fp_line
+		(start 1.725 0.95)
+		(end -1.725 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco1.User")
+		(uuid "c8b76544-d481-4de9-b8c8-449c864a63bc")
+	)
+	(pad "1" smd rect
+		(at -1.10001 0)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "42f1f626-13fc-4ac6-9686-9546907c1671")
+	)
+	(pad "2" smd rect
+		(at 1.10001 0 180)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "e3c9960d-4f62-4613-b819-4f85ab79b141")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/0805 SMD Resistor.step"
+		(offset
+			(xyz 0.00008 0.00009 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

@@ -1,0 +1,7 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "KiCad") (type "KiCad") (uri "C:/Users/jakub/Desktop/LIB_MAX20029ATIA_V+/MAX20029ATIA_V+/KiCad") (options "") (descr ""))
+	(lib (name "LIB_MAX20029ATIA_V+") (type "KiCad") (uri "C:/Users/jakub/Desktop/LIB_MAX20029ATIA_V+") (options "") (descr ""))
+	(lib (name "Pynq_parts_lib") (type "KiCad") (uri "${KIPRJMOD}/Parts/Pynq_parts_lib.pretty") (options "") (descr ""))
+	(lib (name "Brians_Library") (type "KiCad") (uri "${KIPRJMOD}/brians_libraries/Footprints/Brians_Library.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "12402012E212A") (type "KiCad") (uri "${KIPRJMOD}/Parts/12402012E212A.kicad_sym") (options "") (descr ""))
+	(lib (name "Pynq_parts_lib") (type "KiCad") (uri "${KIPRJMOD}/Parts/Pynq_parts_lib.kicad_sym") (options "") (descr ""))
+	(lib (name "Brians_Library") (type "KiCad") (uri "${KIPRJMOD}/brians_libraries/symbols/Brians_Library.kicad_sym") (options "") (descr ""))
+)

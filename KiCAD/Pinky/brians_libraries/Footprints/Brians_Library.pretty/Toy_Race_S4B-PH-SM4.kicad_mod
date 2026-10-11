@@ -1,0 +1,155 @@
+(footprint "Toy_Race_S4B-PH-SM4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "J1"
+		(at -2.47148 -5.2 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "df63462b-b74f-4bb6-a333-d438dd2d7200")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.756 0.756)
+				(thickness 0.05)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "J1" 90
+			(polygon
+				(pts
+					(xy -3.368133 -5.552122) (xy -3.368133 -5.70538) (xy -2.882695 -5.70538) (xy -2.843122 -5.704585)
+					(xy -2.803068 -5.701728) (xy -2.764601 -5.696032) (xy -2.736269 -5.688762) (xy -2.700655 -5.673317)
+					(xy -2.669219 -5.652117) (xy -2.641959 -5.625163) (xy -2.62862 -5.607701) (xy -2.609072 -5.571722)
+					(xy -2.597067 -5.534787) (xy -2.590117 -5.493189) (xy -2.588182 -5.452967) (xy -2.590396 -5.41249)
+					(xy -2.597036 -5.375674) (xy -2.61038 -5.33735) (xy -2.629749 -5.304009) (xy -2.651147 -5.279398)
+					(xy -2.681593 -5.255701) (xy -2.717677 -5.237764) (xy -2.753093 -5.226975) (xy -2.79265 -5.220419)
+					(xy -2.836348 -5.218095) (xy -2.848166 -5.363043) (xy -2.808777 -5.366479) (xy -2.771395 -5.375648)
+					(xy -2.758058 -5.382247) (xy -2.730793 -5.409041) (xy -2.718797 -5.445803) (xy -2.718174 -5.458137)
+					(xy -2.72305 -5.494877) (xy -2.742438 -5.526457) (xy -2.747718 -5.530703) (xy -2.782385 -5.544571)
+					(xy -2.823361 -5.550428) (xy -2.8651 -5.552102) (xy -2.870878 -5.552122)
+				)
+			)
+			(polygon
+				(pts
+					(xy -2.6 -6.207252) (xy -2.6 -6.061381) (xy -3.155789 -6.061381) (xy -3.127204 -6.030392) (xy -3.101554 -5.997391)
+					(xy -3.078838 -5.962378) (xy -3.059056 -5.925353) (xy -3.042209 -5.886315) (xy -3.037245 -5.872855)
+					(xy -3.179054 -5.872855) (xy -3.193689 -5.909489) (xy -3.212349 -5.944125) (xy -3.233301 -5.976236)
+					(xy -3.248482 -5.996939) (xy -3.27521 -6.027821) (xy -3.304061 -6.053441) (xy -3.335035 -6.073798)
+					(xy -3.368133 -6.088893) (xy -3.368133 -6.207252)
+				)
+			)
+		)
+	)
+	(property "Value" "Bentley RC 4P-connctor"
+		(at -8.68299 -4.4831 -90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9fea3b42-1079-4202-808e-fe695ecef85b")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22d9e85a-6b26-42bd-b989-1c34f42da0d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31b982d1-9907-49ab-b3d0-26146e81df28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2631602-3c27-4046-97d0-431d910c3c16")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center -4.2 -3.6)
+		(end -4.4 -3.6)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dc962b5e-6437-4842-ad97-bd2fc3945074")
+	)
+	(pad "" smd rect
+		(at -5.35 2.875)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "761c1fa9-094a-48f7-bc99-cd93c36e3feb")
+	)
+	(pad "" smd rect
+		(at 5.35 2.875 180)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9210dc50-b873-4536-ae41-e59a52ebb484")
+	)
+	(pad "1" smd rect
+		(at -3 -2.875)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "af470b70-e451-4788-a2b7-84429fb2ccb0")
+	)
+	(pad "2" smd rect
+		(at -1 -2.875)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c1f7601-ba3f-4af8-b8bf-08258eae0e51")
+	)
+	(pad "3" smd rect
+		(at 1 -2.875)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5c972e60-9fa1-4a73-aff8-59ce610c3eba")
+	)
+	(pad "4" smd rect
+		(at 3 -2.875)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "534e212e-04f5-493c-9943-c53a1a1cf613")
+	)
+	(model "${KIPRJMOD}/ALTIUM_EMBEDDED_MODELS/S4B-PH-SM4-TB.STEP"
+		(offset
+			(xyz -11.90005 12.49998 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

@@ -1,0 +1,219 @@
+(footprint "SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile switch, 6x6 mm, H4.3 mm, gullwing terminals, https://www.e-switch.com/wp-content/uploads/2024/03/TL3301.pdf")
+	(tags "SPST button straight")
+	(property "Reference" "SW501"
+		(at 0 -4.05 0)
+		(layer "F.SilkS")
+		(uuid "01efe4df-7b08-4a06-bb33-cfc3ef444dcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_MEC_5G"
+		(at 0 4.15 0)
+		(layer "F.Fab")
+		(uuid "7dcca1a9-19d5-4307-aff9-677134b7fd5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50d997a5-e111-4d43-869a-6b396e79ec29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MEC 5G single pole normally-open tactile switch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e1198b8-ac56-4815-ab76-94039c51bee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -3.1)
+		(end -3.1 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a186245-4b0c-400e-8a35-b32c2b2361aa")
+	)
+	(fp_line
+		(start -3.1 -3.1)
+		(end 3.1 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bbe6887c-8abc-48b3-834a-36ec92a11df8")
+	)
+	(fp_line
+		(start -3.1 -1.5)
+		(end -3.1 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df7aeef9-121c-4b2e-9b69-9dcd6421f22f")
+	)
+	(fp_line
+		(start -3.1 3.1)
+		(end -3.1 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9e5227a-7dde-42cb-b2c6-616db3de732c")
+	)
+	(fp_line
+		(start -3.1 3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "24d84919-a09f-4957-bdd6-eaac898a5011")
+	)
+	(fp_line
+		(start 3.1 -3)
+		(end 3.1 -3.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "202a51a1-5b15-43f5-bf72-a1b696d82be5")
+	)
+	(fp_line
+		(start 3.1 -1.5)
+		(end 3.1 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d9dcec9-01b1-4028-b377-4edbf4bd0910")
+	)
+	(fp_line
+		(start 3.1 3.1)
+		(end 3.1 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6d8a75f-954b-4a2a-932e-ff8c1e0e8e44")
+	)
+	(fp_rect
+		(start -5.85 -3.25)
+		(end 5.85 3.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "26b70db2-9edf-4379-b573-32f63c90d725")
+	)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "51de19af-1f21-4351-b9a4-2bca07531ffd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a4d37eb6-64a8-4b41-82ad-2eb9c1d12819")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "28cf42c1-7b22-4c3f-837c-45fa159dadaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.55 -2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "ec440d8b-1965-44e1-a9cc-2b62a86a63d4")
+	)
+	(pad "2" smd roundrect
+		(at 4.55 -2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "20f5b7d0-792e-4c7f-9666-e672f0639147")
+	)
+	(pad "3" smd roundrect
+		(at -4.55 2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "98ef7926-ca26-4e14-b1cb-b2e01bf9d8b5")
+	)
+	(pad "4" smd roundrect
+		(at 4.55 2.25)
+		(size 2.1 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1785714286)
+		(uuid "c4b549ff-4246-44f5-aaa1-f1bd7e31f62d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
